@@ -1,3 +1,3 @@
-== Authors ==
+# Authors
 Bianca Jakobitsch
 Peter Jochum
