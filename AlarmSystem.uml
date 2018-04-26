@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.papyrusuml.org/SysML/Requirements/1" xmlns:UML2="http://www.eclipse.org/uml2/schemas/UML2/2" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mogentes="http:///schemas/mogentes/_aeRHwBbuEd-dFYfJq0QR7g/16" xmlns:mogentes_1="http:///schemas/mogentes/_DATfsKwKEd6kZsaurZ-iOw/6" xmlns:mogentes_2="http:///schemas/mogentes/_oLNMwLBYEd-XEOKODYwFgA/27" xmlns:mogentes_3="http:///schemas/mogentes/_Jsk2MH97Ed-A4ffiOpIJdg/26" xmlns:tcg="http:///schemas/tcg/_CZAUgBFBEeK_NrBxLFM6KQ/3" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.papyrusuml.org/SysML/Requirements/1 http://www.papyrusuml.org/SysML/1 http://www.eclipse.org/uml2/schemas/UML2/2 pathmap://UML_PROFILES/UML2.profile.uml#_On7PcOmLEeC7Uf0JLQQJUg http:///schemas/mogentes/_aeRHwBbuEd-dFYfJq0QR7g/16 ../MOGENTES_profile/mogentes.profile.uml http:///schemas/mogentes/_DATfsKwKEd6kZsaurZ-iOw/6 ../MOGENTES_profile/mogentes.profile.uml http:///schemas/mogentes/_oLNMwLBYEd-XEOKODYwFgA/27 ../MOGENTES_profile/mogentes.profile.uml http:///schemas/mogentes/_Jsk2MH97Ed-A4ffiOpIJdg/26 ../MOGENTES_profile/mogentes.profile.uml http:///schemas/tcg/_CZAUgBFBEeK_NrBxLFM6KQ/3 ../tcg_profile/tcg.profile.uml">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ActionLanguage="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile" xmlns:Requirements="http://www.papyrusuml.org/SysML/Requirements/1" xmlns:UML2="http://www.eclipse.org/uml2/schemas/UML2/2" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mogentes="http:///schemas/mogentes/_aeRHwBbuEd-dFYfJq0QR7g/16" xmlns:mogentes_1="http:///schemas/mogentes/_DATfsKwKEd6kZsaurZ-iOw/6" xmlns:mogentes_2="http:///schemas/mogentes/_oLNMwLBYEd-XEOKODYwFgA/27" xmlns:mogentes_3="http:///schemas/mogentes/_Jsk2MH97Ed-A4ffiOpIJdg/26" xmlns:tcg="http:///schemas/tcg/_CZAUgBFBEeK_NrBxLFM6KQ/3" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ http://www.papyrusuml.org/SysML/Requirements/1 http://www.papyrusuml.org/SysML/1 http://www.eclipse.org/uml2/schemas/UML2/2 pathmap://UML_PROFILES/UML2.profile.uml#_On7PcOmLEeC7Uf0JLQQJUg http:///schemas/mogentes/_aeRHwBbuEd-dFYfJq0QR7g/16 ../MOGENTES_profile/mogentes.profile.uml http:///schemas/mogentes/_DATfsKwKEd6kZsaurZ-iOw/6 ../MOGENTES_profile/mogentes.profile.uml http:///schemas/mogentes/_oLNMwLBYEd-XEOKODYwFgA/27 ../MOGENTES_profile/mogentes.profile.uml http:///schemas/mogentes/_Jsk2MH97Ed-A4ffiOpIJdg/26 ../MOGENTES_profile/mogentes.profile.uml http:///schemas/tcg/_CZAUgBFBEeK_NrBxLFM6KQ/3 ../tcg_profile/tcg.profile.uml">
   <uml:Model xmi:id="_HohzAK4CEd6PBK8vdyCN9g" name="AlarmSystem">
     <ownedComment xmi:type="uml:Comment" xmi:id="_aCIkkLpYEd646OZFo3Cc1Q">
       <body>Metadata:&#xD;
@@ -30,7 +30,7 @@ Model Change $Date: 2012-01-18 10:54:37 +0100 (Mi, 18 Jän 2012) $</body>
       </ownedAttribute>
       <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_dJvuQM9rEd6fFd4VExfF_A" name="AlarmSystem_StateMachine" isReentrant="false">
         <region xmi:type="uml:Region" xmi:id="_dJvuQc9rEd6fFd4VExfF_A" name="Region_0">
-          <transition xmi:type="uml:Transition" xmi:id="_T-jpsM9uEd6fFd4VExfF_A" name="From_Armed_to_Junction_0_Transition_0" source="_nOES4M9rEd6fFd4VExfF_A" target="_63X_UM9sEd6fFd4VExfF_A">
+          <transition xmi:type="uml:Transition" xmi:id="_T-jpsM9uEd6fFd4VExfF_A" name="From_Armed_to_Junction_0_Transition_0" source="_nOES4M9rEd6fFd4VExfF_A" target="_kf4EoEk4Eei2r74Miq3mIg">
             <trigger xmi:type="uml:Trigger" xmi:id="_pI9DMRFZEeKaZqvweJfgUQ" event="_pI9DMBFZEeKaZqvweJfgUQ"/>
           </transition>
           <transition xmi:type="uml:Transition" xmi:id="_3afhENW0Ed61OoSy6wIJJA" name="From_ClosedAndLocked_to_Armed_Transition_0" source="_xcIsQNW0Ed61OoSy6wIJJA" target="_nOES4M9rEd6fFd4VExfF_A">
@@ -147,6 +147,24 @@ run acousticAlarm.SetOn();</body>
           <subvertex xmi:type="uml:State" xmi:id="_kEPiMB0-Ed-WgoNlcR3o7w" name="ClosedAndUnlocked"/>
           <subvertex xmi:type="uml:State" xmi:id="_ku2lcB0-Ed-WgoNlcR3o7w" name="OpenAndLocked"/>
           <subvertex xmi:type="uml:Pseudostate" xmi:id="_dsnKwM9rEd6fFd4VExfF_A" name="Initial_0"/>
+          <subvertex xmi:type="uml:State" xmi:id="_kf4EoEk4Eei2r74Miq3mIg" name="PIN">
+            <region xmi:type="uml:Region" xmi:id="_noVDUEk4Eei2r74Miq3mIg" name="Region1">
+              <transition xmi:type="uml:Transition" xmi:id="_jpcPEEk8Eei2r74Miq3mIg" source="_QbIugEk5Eei2r74Miq3mIg" target="_a-pwkEk5Eei2r74Miq3mIg">
+                <ownedComment xmi:type="uml:Comment" xmi:id="_kk_RUEk8Eei2r74Miq3mIg">
+                  <body>PIN False&#xD;
+</body>
+                </ownedComment>
+              </transition>
+              <transition xmi:type="uml:Transition" xmi:id="_nl750Ek8Eei2r74Miq3mIg" source="_a-pwkEk5Eei2r74Miq3mIg" target="_cT0zwEk5Eei2r74Miq3mIg">
+                <ownedComment xmi:type="uml:Comment" xmi:id="_oVpfgEk8Eei2r74Miq3mIg">
+                  <body>PIN False</body>
+                </ownedComment>
+              </transition>
+              <subvertex xmi:type="uml:State" xmi:id="_QbIugEk5Eei2r74Miq3mIg" name="ThreeTries"/>
+              <subvertex xmi:type="uml:State" xmi:id="_a-pwkEk5Eei2r74Miq3mIg" name="TwoTries"/>
+              <subvertex xmi:type="uml:State" xmi:id="_cT0zwEk5Eei2r74Miq3mIg" name="OneTry"/>
+            </region>
+          </subvertex>
         </region>
       </ownedBehavior>
       <ownedReception xmi:type="uml:Reception" xmi:id="_TW_fkB0vEd-WgoNlcR3o7w" name="Reception_0" signal="_VSCP8B0vEd-WgoNlcR3o7w"/>
@@ -259,6 +277,8 @@ run acousticAlarm.SetOn();</body>
         </when>
       </packagedElement>
     </packagedElement>
+    <packagedElement xmi:type="uml:SignalEvent" xmi:id="_WO25QEk8Eei2r74Miq3mIg" name="Correct"/>
+    <packagedElement xmi:type="uml:SignalEvent" xmi:id="_YUnE0Ek8Eei2r74Miq3mIg" name="PIN False"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_HohzAq4CEd6PBK8vdyCN9g">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HohzA64CEd6PBK8vdyCN9g" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
@@ -276,6 +296,12 @@ run acousticAlarm.SetOn();</body>
         <references xmi:type="ecore:EPackage" href="../tcg_profile/tcg.profile.uml#_CZAUgRFBEeK_NrBxLFM6KQ"/>
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="../tcg_profile/tcg.profile.uml#_7hxR4IShEeGyf7wQIxhLDw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Ej2XcEk5Eei2r74Miq3mIg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ej5awEk5Eei2r74Miq3mIg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
     </profileApplication>
   </uml:Model>
   <mogentes:environment xmi:id="_scfqULmYEd646OZFo3Cc1Q"/>
@@ -328,4 +354,6 @@ run acousticAlarm.SetOn();</body>
   <tcg:system_under_test xmi:id="_N4icQM-WEeKEPMsmeTJd2g" base_Class="_YkvcgK4CEd6PBK8vdyCN9g"/>
   <tcg:environment xmi:id="_WIAecM-eEeKEPMsmeTJd2g" base_Class="_6Dui4K5REd60YoIJHP_KNw"/>
   <tcg:environment xmi:id="_Xb-nwM-eEeKEPMsmeTJd2g" base_Class="_Dk4wEK5SEd60YoIJHP_KNw"/>
+  <ActionLanguage:TextualRepresentation xmi:id="_klCUoEk8Eei2r74Miq3mIg" base_Comment="_kk_RUEk8Eei2r74Miq3mIg" language="org.eclipse.papyrus.uml.textedit.transition.xtext.UmlTransition"/>
+  <ActionLanguage:TextualRepresentation xmi:id="_oVr7wEk8Eei2r74Miq3mIg" base_Comment="_oVpfgEk8Eei2r74Miq3mIg" language="org.eclipse.papyrus.uml.textedit.transition.xtext.UmlTransition"/>
 </xmi:XMI>
